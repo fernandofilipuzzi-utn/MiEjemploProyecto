@@ -1,8 +1,0 @@
-F:\repos\mirepo\MiEjemploProyecto\Prueba1\Prueba1\bin\Debug\Prueba1.exe
-F:\repos\mirepo\MiEjemploProyecto\Prueba1\Prueba1\bin\Debug\Prueba1.pdb
-F:\repos\mirepo\MiEjemploProyecto\Prueba1\Prueba1\obj\x86\Debug\WindowsFormsApplication1.Dialogo.resources
-F:\repos\mirepo\MiEjemploProyecto\Prueba1\Prueba1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
-F:\repos\mirepo\MiEjemploProyecto\Prueba1\Prueba1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
-F:\repos\mirepo\MiEjemploProyecto\Prueba1\Prueba1\obj\x86\Debug\Prueba1.csproj.GenerateResource.Cache
-F:\repos\mirepo\MiEjemploProyecto\Prueba1\Prueba1\obj\x86\Debug\Prueba1.exe
-F:\repos\mirepo\MiEjemploProyecto\Prueba1\Prueba1\obj\x86\Debug\Prueba1.pdb
