@@ -1,0 +1,11 @@
+F:\repos\mirepo\MiEjemploProyecto\Encuesta\Encuesta\bin\Debug\Encuesta.exe
+F:\repos\mirepo\MiEjemploProyecto\Encuesta\Encuesta\bin\Debug\Encuesta.pdb
+F:\repos\mirepo\MiEjemploProyecto\Encuesta\Encuesta\obj\Debug\ResolveAssemblyReference.cache
+F:\repos\mirepo\MiEjemploProyecto\Encuesta\Encuesta\obj\Debug\WindowsFormsApplication1.Form3.resources
+F:\repos\mirepo\MiEjemploProyecto\Encuesta\Encuesta\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\repos\mirepo\MiEjemploProyecto\Encuesta\Encuesta\obj\Debug\Encuesta.csproj.GenerateResource.Cache
+F:\repos\mirepo\MiEjemploProyecto\Encuesta\Encuesta\obj\Debug\Encuesta.exe
+F:\repos\mirepo\MiEjemploProyecto\Encuesta\Encuesta\obj\Debug\Encuesta.pdb
+F:\repos\mirepo\MiEjemploProyecto\Encuesta\Encuesta\obj\Debug\WindowsFormsApplication1.FormListadoAlumnos.resources
+F:\repos\mirepo\MiEjemploProyecto\Encuesta\Encuesta\obj\Debug\WindowsFormsApplication1.FormRegEncuesta.resources
+F:\repos\mirepo\MiEjemploProyecto\Encuesta\Encuesta\obj\Debug\WindowsFormsApplication1.FormPrincipal.resources

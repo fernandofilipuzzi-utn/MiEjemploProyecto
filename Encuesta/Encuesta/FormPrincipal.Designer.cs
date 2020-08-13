@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1
 {
-    partial class Form1
+    partial class FormPrincipal
     {
         /// <summary>
         /// Variable del diseñador requerida.
@@ -58,7 +58,7 @@
             this.button2.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button2.Location = new System.Drawing.Point(238, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 75);
+            this.button2.Size = new System.Drawing.Size(199, 75);
             this.button2.TabIndex = 0;
             this.button2.Text = "Registar encuesta";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -88,19 +88,20 @@
             // 
             this.toolTip1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             // 
-            // Form1
+            // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(450, 240);
+            this.ClientSize = new System.Drawing.Size(444, 240);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "FormPrincipal";
             this.Text = "Sistema de Encuestas";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

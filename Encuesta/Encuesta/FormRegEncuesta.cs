@@ -9,12 +9,12 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Form2 : Form
+    public partial class FormRegEncuesta : Form
     {
 
         public char [] respuestas =new char[4];
 
-        public Form2()
+        public FormRegEncuesta()
         {
             InitializeComponent();
         }
@@ -110,6 +110,46 @@ namespace WindowsFormsApplication1
             {
                 respuestas[listBox1.SelectedIndex] = getRadioButtons();
             }
+
+           // listBox1.Focus();
         }
+
+
+
+        private void FormRegEncuesta_KeyDown(object sender, KeyEventArgs e)
+        {
+            /*
+            if (Keys.Enter == e.KeyCode)
+            {
+                //SendKeys.Send("{TAB}");
+                //e.Handled = true;
+                //SelectNextControl(ActiveControl, true, true, true, true);
+            }
+            */
+            
+
+            
+
+        }
+
+        private void listBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Keys.Right == e.KeyCode)
+            {
+                radioButton1.Focus();
+                e.Handled = true;
+            }
+        }
+
+        private void radioButton1_KeyDown(object sender, KeyEventArgs e)
+        {
+
+            if (Keys.Left == e.KeyCode)
+            {
+                listBox1.Focus();
+                e.Handled = true;
+            }
+        }
+
     }
 }

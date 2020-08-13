@@ -21,7 +21,7 @@ namespace WindowsFormsApplication1
             this.nombre=nombre;
             this.año=año;
 
-            resultado = Evaluar(r1) + Evaluar(r2) + Evaluar(r3) + Evaluar(r4);
+            resultado = Evaluar(r1) + Evaluar(r2) + Evaluar(r3) +Evaluar(r4);
         }
         
         private int Evaluar(char r)
@@ -33,7 +33,7 @@ namespace WindowsFormsApplication1
                 case 'B':
                     return 5;
                 case 'C':
-                    return 3;
+                    return -3;
             }
             return 0;
         }
