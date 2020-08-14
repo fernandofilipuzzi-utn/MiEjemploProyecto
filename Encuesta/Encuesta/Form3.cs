@@ -51,7 +51,7 @@ namespace WindowsFormsApplication1
                 case "B":
                     return 5;
                 case "C":
-                    return 3;
+                    return -3;
             }
             return 0;
         }

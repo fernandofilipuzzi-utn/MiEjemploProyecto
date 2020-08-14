@@ -16,7 +16,8 @@ namespace WindowsFormsApplication1
         private int resultado;
         public int Resultado { get { return resultado; } }
 
-        public Alumno(string nombre, int año, string carrera, char r1, char r2, char r3, char r4)
+        public Alumno(string nombre, int año, string carrera, 
+                        char r1, char r2, char r3, char r4)
         {
             this.nombre=nombre;
             this.año=año;

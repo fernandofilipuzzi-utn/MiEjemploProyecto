@@ -16,6 +16,7 @@ namespace WindowsFormsApplication1
             get 
             {
                 Alumno mayorPuntaje=null;
+                
                 for (int i = 0; i < cnt; i++)
                 {
                    if (i == 0)
@@ -34,7 +35,6 @@ namespace WindowsFormsApplication1
                 return mayorPuntaje;
             } 
         }
-
        
         public Alumno MenorPuntaje 
         {
@@ -65,7 +65,6 @@ namespace WindowsFormsApplication1
             get 
             {
                 double promedio = 0;
-
                 int acPunt = 0;
                 
                 for (int i = 0; i < cnt; i++)
@@ -78,6 +77,22 @@ namespace WindowsFormsApplication1
             } 
         }
 
+        public Alumno[] AlumnosMayores10()
+        {
+            Alumno[] mayores = new Alumno[cnt];
+
+           
+            for (int i = 0, j=0; i < cnt; i++)
+            {
+                if (encuestas[i].Resultado > 10)
+                {
+                    mayores[j++] = encuestas[i];
+               
+                }
+            }
+
+            return mayores;
+        }
         
         public int Mayores10 
         { 
@@ -119,6 +134,7 @@ namespace WindowsFormsApplication1
                             char r1, char r2, char r3, char r4)
         {
             encuestas[cnt]=new Alumno(nombre, año, carrera, r1, r2, r3, r4);
+           // encuestas[cnt].registrar(r1, r2, r3, r4);
             return encuestas[cnt++];
         }
 
@@ -126,6 +142,10 @@ namespace WindowsFormsApplication1
          * 
          * 
          * 
+         * 
+
+        */
+        /*
         public void Procesar()
         {
             int acPunt = 0;

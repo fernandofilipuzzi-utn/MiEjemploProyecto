@@ -12,8 +12,12 @@ namespace WindowsFormsApplication1
     public partial class FormPrincipal : Form
     {
         FormRegEncuesta formRegEncuesta = new FormRegEncuesta();
+      
+        
         Consulta controlador = new Consulta();
-        FormListadoAlumnos Alumnos = new FormListadoAlumnos();
+
+
+        FormListadoAlumnos FormAlumnos = new FormListadoAlumnos();
 
         public FormPrincipal()
         {
@@ -21,8 +25,8 @@ namespace WindowsFormsApplication1
 
             StartPosition = FormStartPosition.CenterScreen;
 
-            Alumnos.Show();
-            Alumnos.StartPosition = FormStartPosition.WindowsDefaultLocation;
+            FormAlumnos.Show();
+            FormAlumnos.StartPosition = FormStartPosition.WindowsDefaultLocation;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -45,6 +49,7 @@ namespace WindowsFormsApplication1
             while(dr== DialogResult.OK)
             {
                 formRegEncuesta.Clear();
+
                 dr = formRegEncuesta.ShowDialog();
                 formRegEncuesta.StartPosition = FormStartPosition.CenterScreen;
 
@@ -59,7 +64,7 @@ namespace WindowsFormsApplication1
                             formRegEncuesta.respuestas[2], //respuesta3
                             formRegEncuesta.respuestas[3]);
 
-                    Alumnos.listBox1.Items.Add(alumno.Nombre + " - " + alumno.Resultado);
+                    FormAlumnos.listBox1.Items.Add(alumno.Nombre + " - " + alumno.Resultado);
                 }
             }
         }
@@ -78,6 +83,16 @@ namespace WindowsFormsApplication1
 
             string mayores10 = String.Format("Encuestas Mayores a 10: {0:f2}", controlador.Mayores10);
             listBox1.Items.Add(mayores10);
+
+            Alumno [] alMayores10 = controlador.AlumnosMayores10();
+            for (int i = 0; i < alMayores10.Length && alMayores10[i] != null; i++)
+            {
+                string linea = string.Format("{0} - {1:f2} ", 
+                                    alMayores10[i].Nombre, 
+                                    alMayores10[i].Resultado) ;
+
+                listBox1.Items.Add(linea);
+            }
 
             string menores0 = String.Format("Encuestas Menores a 0: {0:f2}", controlador.Menores0);
             listBox1.Items.Add(menores0);
@@ -100,7 +115,7 @@ namespace WindowsFormsApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           // MessageBox.Show(System.Globalization.CultureInfo.CurrentCulture.ToString());
+           MessageBox.Show(System.Globalization.CultureInfo.CurrentCulture.ToString());
         }
     }
 }

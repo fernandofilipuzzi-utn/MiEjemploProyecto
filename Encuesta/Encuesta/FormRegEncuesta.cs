@@ -64,20 +64,23 @@ namespace WindowsFormsApplication1
             else if (listBox1.SelectedIndex < 4)
             {
                 groupBox1.Enabled = true;
-                setRadioButtons(respuestas[listBox1.SelectedIndex]);
+
+                setRadioButtons( respuestas[  listBox1.SelectedIndex ] );
+
                 groupBox1.Text = (string)listBox1.Items[listBox1.SelectedIndex];
             }
         }
 
         private char getRadioButtons()
         {
+            char resultado=' ';
             if (radioButton1.Checked == true)
-                return 'A';
+                resultado='A';
             else if (radioButton2.Checked == true)
-                return 'B';
+                resultado='B';
             else if (radioButton3.Checked == true)
-                return 'C';
-            return ' ';
+                resultado='C';
+            return resultado;
         }
         private void setRadioButtons(char resp)
         {

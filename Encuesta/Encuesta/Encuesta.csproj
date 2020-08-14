@@ -113,6 +113,7 @@
   <ItemGroup>
     <Content Include="imagenes\process.png" />
     <Content Include="imagenes\votacion.png" />
+    <None Include="Resources\Image1.png" />
     <None Include="Resources\votacion.png" />
     <None Include="Resources\process.png" />
   </ItemGroup>
