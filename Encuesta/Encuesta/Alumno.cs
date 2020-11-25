@@ -5,7 +5,7 @@ using System.Text;
 
 namespace WindowsFormsApplication1
 {
-
+//hola mundo
     class Alumno
     {
         private string nombre;
