@@ -5,7 +5,11 @@ using System.Text;
 
 namespace WindowsFormsApplication1
 {
+<<<<<<< HEAD
    
+=======
+    //comentario1
+>>>>>>> 5f08611a4dc9642de7eaff684cd62c5a061b5d84
     class Alumno
     {
         private string nombre;
