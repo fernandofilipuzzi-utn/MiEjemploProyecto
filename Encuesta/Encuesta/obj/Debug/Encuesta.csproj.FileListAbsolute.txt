@@ -1,0 +1,10 @@
+C:\Users\fernando\Desktop\ejemplo_organización\ejemplo\C\Users\fernando\Desktop\ejemplo_organización\ejemplo\Encuesta\Encuesta\bin\Debug\Encuesta.exe
+C:\Users\fernando\Desktop\ejemplo_organización\ejemplo\C\Users\fernando\Desktop\ejemplo_organización\ejemplo\Encuesta\Encuesta\bin\Debug\Encuesta.pdb
+C:\Users\fernando\Desktop\ejemplo_organización\ejemplo\C\Users\fernando\Desktop\ejemplo_organización\ejemplo\Encuesta\Encuesta\obj\Debug\WindowsFormsApplication1.FormPrincipal.resources
+C:\Users\fernando\Desktop\ejemplo_organización\ejemplo\C\Users\fernando\Desktop\ejemplo_organización\ejemplo\Encuesta\Encuesta\obj\Debug\WindowsFormsApplication1.FormRegEncuesta.resources
+C:\Users\fernando\Desktop\ejemplo_organización\ejemplo\C\Users\fernando\Desktop\ejemplo_organización\ejemplo\Encuesta\Encuesta\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\fernando\Desktop\ejemplo_organización\ejemplo\C\Users\fernando\Desktop\ejemplo_organización\ejemplo\Encuesta\Encuesta\obj\Debug\WindowsFormsApplication1.FormListadoAlumnos.resources
+C:\Users\fernando\Desktop\ejemplo_organización\ejemplo\C\Users\fernando\Desktop\ejemplo_organización\ejemplo\Encuesta\Encuesta\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\fernando\Desktop\ejemplo_organización\ejemplo\C\Users\fernando\Desktop\ejemplo_organización\ejemplo\Encuesta\Encuesta\obj\Debug\Encuesta.csproj.GenerateResource.Cache
+C:\Users\fernando\Desktop\ejemplo_organización\ejemplo\C\Users\fernando\Desktop\ejemplo_organización\ejemplo\Encuesta\Encuesta\obj\Debug\Encuesta.exe
+C:\Users\fernando\Desktop\ejemplo_organización\ejemplo\C\Users\fernando\Desktop\ejemplo_organización\ejemplo\Encuesta\Encuesta\obj\Debug\Encuesta.pdb
