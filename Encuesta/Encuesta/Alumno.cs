@@ -5,7 +5,19 @@ using System.Text;
 
 namespace WindowsFormsApplication1
 {
+<<<<<<< .mine
 
+
+
+
+
+=======
+<<<<<<< HEAD
+   
+=======
+    //comentario1
+>>>>>>> 5f08611a4dc9642de7eaff684cd62c5a061b5d84
+>>>>>>> .theirs
     class Alumno
     {
         private string nombre;
